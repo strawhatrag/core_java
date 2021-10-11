@@ -72,13 +72,13 @@ public class saucedemo {
 	    System.out.println(Price);
 	    
 	    
-	 //select the product
+	   //select the product
 	  	WebElement bag = driver.findElement(By.xpath("//div[@class='inventory_item_name' and text()='" + Name + "']/following::button[1]"));
 	  	bag.click();
 		
-	  //checkout
+	    //checkout
 	  	WebElement checkout = driver.findElement(By.xpath("//a[@class='shopping_cart_link']"));
-	  	checkout.click();
+	  	checkout.click(); 
 	  	
 	  	//check prices are same
 	  	WebElement price_cart = driver.findElement(By.xpath("//div[@class='inventory_item_price']"));
@@ -88,6 +88,9 @@ public class saucedemo {
 		}else {
 			System.out.println("Price is Same "+Price);
 		}
+		
+		
+		//delivery
 	  	
 	  	WebElement checkout1 = driver.findElement(By.xpath("//button[@class='btn btn_action btn_medium checkout_button']"));
 	  	checkout1.click();
