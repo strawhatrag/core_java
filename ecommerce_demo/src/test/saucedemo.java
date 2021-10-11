@@ -56,7 +56,7 @@ public class saucedemo {
 		
 		
 		
-		//new db connection
+		 //new db connection
 		DBConnection conn1;
 		String Name = "";
 		Double Price=0.0;
