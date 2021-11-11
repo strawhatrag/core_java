@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class saucedemo {
 
-	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException, InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chromedriver", "chomedriver");
 		
@@ -38,6 +38,7 @@ public class saucedemo {
 		rst.next();
 		Username = rst.getString("username");
 		Password = rst.getString("password");
+		
 		
 		
 		
@@ -105,6 +106,7 @@ public class saucedemo {
 		WebElement ZipCode = driver.findElement(By.cssSelector("input[id=postal-code]"));
 		ZipCode.sendKeys("007007");
 		
+		Thread.sleep(3000000);
 		WebElement Continue = driver.findElement(By.cssSelector("input[id=continue]"));
 		Continue.click();
 		

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="84" started-at="2021-10-28T05:25:04 UTC" finished-at="2021-10-28T05:25:04 UTC">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="84" started-at="2021-10-28T05:25:04 UTC" finished-at="2021-10-28T05:25:04 UTC">
+      <class name="testing.Testcase1">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:testing.Testcase1@2a556333]" name="BeforeTest" is-config="true" duration-ms="8" started-at="2021-10-28T05:25:04 UTC" finished-at="2021-10-28T05:25:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testing.Testcase1@2a556333]" name="setup" is-config="true" duration-ms="3" started-at="2021-10-28T05:25:04 UTC" finished-at="2021-10-28T05:25:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="HomeLoanTest()[pri:0, instance:testing.Testcase1@2a556333]" name="HomeLoanTest" duration-ms="1" started-at="2021-10-28T05:25:04 UTC" description="type something" finished-at="2021-10-28T05:25:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoanTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testing.Testcase1@2a556333]" name="teardown" is-config="true" duration-ms="0" started-at="2021-10-28T05:25:04 UTC" finished-at="2021-10-28T05:25:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testing.Testcase1 -->
+      <class name="testing.Testcase2">
+        <test-method status="PASS" signature="CreditCardTest()[pri:0, instance:testing.Testcase2@4d95d2a2]" name="CreditCardTest" duration-ms="8" started-at="2021-10-28T05:25:04 UTC" finished-at="2021-10-28T05:25:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreditCardTest -->
+      </class> <!-- testing.Testcase2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
